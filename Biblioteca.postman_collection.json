@@ -20,10 +20,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/books",
+					"raw": "http://69.231.77.3:8080/books",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"69",
+						"231",
+						"77",
+						"3"
 					],
 					"port": "8080",
 					"path": [
@@ -39,10 +42,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/books/3yEIaCTsSmgC",
+					"raw": "http://69.231.77.3:8080/books/3yEIaCTsSmgC",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"69",
+						"231",
+						"77",
+						"3"
 					],
 					"port": "8080",
 					"path": [
