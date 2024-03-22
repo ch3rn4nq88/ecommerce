@@ -1,0 +1,57 @@
+{
+	"info": {
+		"_postman_id": "e0c6d5da-70bd-41ac-8fe8-f2b62ac38f15",
+		"name": "Biblioteca",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1105846"
+	},
+	"item": [
+		{
+			"name": "API internal",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Biblioteca GetBooks",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/books",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"books"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Biblioteca GetBooksBy Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/books/3yEIaCTsSmgC",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"books",
+						"3yEIaCTsSmgC"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
