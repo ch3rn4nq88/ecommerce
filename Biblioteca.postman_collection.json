@@ -58,6 +58,66 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "Biblioteca GetBooksBy Id Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://69.231.77.3:8080/books/3yEIaCTsSmgC",
+					"protocol": "http",
+					"host": [
+						"69",
+						"231",
+						"77",
+						"3"
+					],
+					"port": "8080",
+					"path": [
+						"books",
+						"3yEIaCTsSmgC"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Book",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Harry Potter and the Cursed Child\",\r\n\r\n    \"maturityRating\": \"NOT_MATURE\",\r\n    \"language\": \"en\",\r\n    \"description\": \"As an overworked employee of the Ministry of Magic, a husband, and a father, Harry Potter struggles with a past that refuses to stay where it belongs while his youngest son, Albus, finds the weight of the family legacy difficult to bear.\",\r\n    \"id\": \"kLAoswEACAAJ\",\r\n    \"pageCount\": 10,\r\n    \"categories\": [\r\n        \"Fiction\"\r\n    ],\r\n    \"authors\": [\r\n        \"J. K. Rowling\",\r\n        \"Jack Thorne\",\r\n        \"John Tiffany\"\r\n    ],\r\n    \"imageLinks\": {\r\n        \"smallThumbnail\": \"http://books.google.com/books/content?id=kLAoswEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api\",\r\n        \"thumbnail\": \"http://books.google.com/books/content?id=kLAoswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api\"\r\n    },\r\n    \"industryIdentifiers\": [\r\n        {\r\n            \"type\": \"ISBN_10\",\r\n            \"identifier\": \"0751565369\"\r\n        },\r\n        {\r\n            \"type\": \"ISBN_13\",\r\n            \"identifier\": \"9780751565362\"\r\n        }\r\n    ],\r\n    \"publisher\":\"deBolsillo\",\r\n    \"publishedDate\": \"2017\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://69.231.77.3:8080/books",
+					"protocol": "http",
+					"host": [
+						"69",
+						"231",
+						"77",
+						"3"
+					],
+					"port": "8080",
+					"path": [
+						"books"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
